@@ -1547,3 +1547,44 @@ glaucoma.zip:Zone.Identifier
 test.png
 YellowLabradorLooking_new.jpg
 YellowLabradorLooking_new.jpg:Zone.Identifier
+
+# OS / 편집기 환경
+.DS_Store
+Thumbs.db
+.vscode/
+.ipynb_checkpoints/
+
+# 가상환경 / 설정
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 데이터셋 / 실행 결과
+datasets/
+mnist/
+runs/
+*.csv
+*.json
+*.log
+*.txt
+
+# 모델 가중치 / 큰 파일
+*.pt
+*.h5
+*.onnx
+*.ckpt
+
+# 이미지/결과물 (필요 없으면 ignore)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+
+# 기타
+*.zip
+*.tar
+*.gz
