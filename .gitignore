@@ -29,7 +29,7 @@ runs/
 *.onnx
 *.ckpt
 
-# 이미지/결과물 (필요 없으면 ignore)
+# 이미지/결과물
 *.jpg
 *.jpeg
 *.png
@@ -40,3 +40,9 @@ runs/
 *.zip
 *.tar
 *.gz
+
+# Hugging Face outputs
+results/checkpoint-*/
+*.safetensors
+*.bin
+*.pth
